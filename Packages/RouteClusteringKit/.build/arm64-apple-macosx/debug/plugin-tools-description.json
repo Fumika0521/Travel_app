@@ -1,0 +1,566 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.xctest/Contents/MacOS/RouteClusteringKitPackageTests",
+      "packagePath" : "/Users/fumika/develop2/Packages/RouteClusteringKit",
+      "productName" : "RouteClusteringKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.RouteClusteringKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/sources",
+      "importPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/Sources/RouteClusteringKit/RouteClustering.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RouteClusteringKit",
+      "moduleOutputPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules/RouteClusteringKit.swiftmodule",
+      "objects" : [
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/RouteClustering.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/include/RouteClusteringKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "routeclusteringkit"
+      ],
+      "outputFileMapPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/RouteClustering.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules/RouteClusteringKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/Sources/RouteClusteringKit/RouteClustering.swift"
+      ],
+      "tempsPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.RouteClusteringKitPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/sources",
+      "importPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules/RouteClusteringKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RouteClusteringKitPackageTests",
+      "moduleOutputPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules/RouteClusteringKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/include/RouteClusteringKitPackageTests-Swift.h",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "routeclusteringkit"
+      ],
+      "outputFileMapPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules/RouteClusteringKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.RouteClusteringKitTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build/sources",
+      "importPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/Tests/RouteClusteringKitTests/RouteClusteringTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules/RouteClusteringKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RouteClusteringKitTests",
+      "moduleOutputPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules/RouteClusteringKitTests.swiftmodule",
+      "objects" : [
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build/RouteClusteringTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "routeclusteringkit"
+      ],
+      "outputFileMapPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build/RouteClusteringTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules/RouteClusteringKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/fumika/develop2/Packages/RouteClusteringKit/Tests/RouteClusteringKitTests/RouteClusteringTests.swift"
+      ],
+      "tempsPath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "RouteClusteringKit" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "RouteClusteringKit",
+      "-package-name",
+      "routeclusteringkit",
+      "-c",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/Sources/RouteClusteringKit/RouteClustering.swift",
+      "-I",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/include/RouteClusteringKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "routeclusteringkit",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "RouteClusteringKitPackageTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "RouteClusteringKitPackageTests",
+      "-package-name",
+      "routeclusteringkit",
+      "-c",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/include/RouteClusteringKitPackageTests-Swift.h",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "routeclusteringkit",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "RouteClusteringKitTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "RouteClusteringKitTests",
+      "-package-name",
+      "routeclusteringkit",
+      "-c",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/Tests/RouteClusteringKitTests/RouteClusteringTests.swift",
+      "-I",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "routeclusteringkit",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "RouteClusteringKit" : [
+
+    ],
+    "RouteClusteringKitPackageTests" : [
+      "RouteClusteringKitTests",
+      "RouteClusteringKit"
+    ],
+    "RouteClusteringKitTests" : [
+      "RouteClusteringKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/Sources/RouteClusteringKit/RouteClustering.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/sources"
+    },
+    "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/sources"
+    },
+    "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/RouteClustering.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build/RouteClusteringTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fumika/develop2/Packages/RouteClusteringKit/Tests/RouteClusteringKitTests/RouteClusteringTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitTests.build/sources"
+    },
+    "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

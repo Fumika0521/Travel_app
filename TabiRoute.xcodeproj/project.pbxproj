@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010431CDB141465E1B0EF06E /* TabiRouteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975BA7FD7DF1EC8D0578BDE /* TabiRouteApp.swift */; };
+		37FF4390A3A18D8D40CBC060 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30EE14CDF1C98EF2D2FF136 /* Trip.swift */; };
+		4FABD215BF26DCA9CF654CCD /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B654DB761A23E328AB8A3FE /* PhotoLibraryService.swift */; };
+		5566FA34B11C8B67C52B092C /* PhotoPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0379FD8DA59D31122A39C46 /* PhotoPickerSheet.swift */; };
+		5E41412C584E45DD7CD33364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDA9DB7E1EA5BC081EACC8 /* Assets.xcassets */; };
+		ECC805D8D0E4F4D502F69724 /* RouteClusteringKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F09B3BF270C65A8BBE1A36F /* RouteClusteringKit */; };
+		F90D764FB77A6828D906885D /* TripMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6720EFCA37055F39FB120710 /* TripMapView.swift */; };
+		FAED5405BFD6D69F1FB0CAA8 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA675CB52C20A92FD0C6 /* TripListView.swift */; };
+		FEC5197F4D91C8AC5D61556B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3201C7DD012BBD84D8FFFF /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		309D4C9D4C6591AC3DA7B8DA /* TabiRoute.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TabiRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B654DB761A23E328AB8A3FE /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		3BCDA9DB7E1EA5BC081EACC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A9559375F3244C3F93F53D /* RouteClusteringKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RouteClusteringKit; path = Packages/RouteClusteringKit; sourceTree = SOURCE_ROOT; };
+		6720EFCA37055F39FB120710 /* TripMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapView.swift; sourceTree = "<group>"; };
+		8F3201C7DD012BBD84D8FFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A29DCA675CB52C20A92FD0C6 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		B975BA7FD7DF1EC8D0578BDE /* TabiRouteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabiRouteApp.swift; sourceTree = "<group>"; };
+		D0B0D91DD2BEA5188AC1C375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D30EE14CDF1C98EF2D2FF136 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		F0379FD8DA59D31122A39C46 /* PhotoPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AAA296745E5D169BD454573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC805D8D0E4F4D502F69724 /* RouteClusteringKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E94E546D43772F0B0C4C32 = {
+			isa = PBXGroup;
+			children = (
+				734F045BA15CFC9095EFCE35 /* Packages */,
+				900CD880F46EB812AE72F53A /* TabiRoute */,
+				9BF891CE8A58ED6801D5572C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		734F045BA15CFC9095EFCE35 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				41A9559375F3244C3F93F53D /* RouteClusteringKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		77447D0FDD3B2B0A4A271DEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDA9DB7E1EA5BC081EACC8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E3B2B651DB2902546F2C529 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3B654DB761A23E328AB8A3FE /* PhotoLibraryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		900CD880F46EB812AE72F53A /* TabiRoute */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0D91DD2BEA5188AC1C375 /* Info.plist */,
+				B975BA7FD7DF1EC8D0578BDE /* TabiRouteApp.swift */,
+				A4CACE151AD2DCC36E70ABDE /* Models */,
+				77447D0FDD3B2B0A4A271DEC /* Resources */,
+				7E3B2B651DB2902546F2C529 /* Services */,
+				F6CCBE30215A9F0A99EAA5A6 /* Views */,
+			);
+			path = TabiRoute;
+			sourceTree = "<group>";
+		};
+		9BF891CE8A58ED6801D5572C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309D4C9D4C6591AC3DA7B8DA /* TabiRoute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4CACE151AD2DCC36E70ABDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D30EE14CDF1C98EF2D2FF136 /* Trip.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6CCBE30215A9F0A99EAA5A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F3201C7DD012BBD84D8FFFF /* ContentView.swift */,
+				F0379FD8DA59D31122A39C46 /* PhotoPickerSheet.swift */,
+				A29DCA675CB52C20A92FD0C6 /* TripListView.swift */,
+				6720EFCA37055F39FB120710 /* TripMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EDBC83EBB2DCCA98EA9D183 /* TabiRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2A7C9B13EA81801DC977A4 /* Build configuration list for PBXNativeTarget "TabiRoute" */;
+			buildPhases = (
+				645237BE7F254E2F4880B967 /* Sources */,
+				57109BC235DC831AC8F2C39A /* Resources */,
+				1AAA296745E5D169BD454573 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabiRoute;
+			packageProductDependencies = (
+				4F09B3BF270C65A8BBE1A36F /* RouteClusteringKit */,
+			);
+			productName = TabiRoute;
+			productReference = 309D4C9D4C6591AC3DA7B8DA /* TabiRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F92C159B8D5264BFA87733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 559FADEDD88C0E56FD864F4D /* Build configuration list for PBXProject "TabiRoute" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 41E94E546D43772F0B0C4C32;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3E81801F89EC4DE96CA2DB4E /* XCLocalSwiftPackageReference "Packages/RouteClusteringKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9BF891CE8A58ED6801D5572C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EDBC83EBB2DCCA98EA9D183 /* TabiRoute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57109BC235DC831AC8F2C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E41412C584E45DD7CD33364 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645237BE7F254E2F4880B967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC5197F4D91C8AC5D61556B /* ContentView.swift in Sources */,
+				4FABD215BF26DCA9CF654CCD /* PhotoLibraryService.swift in Sources */,
+				5566FA34B11C8B67C52B092C /* PhotoPickerSheet.swift in Sources */,
+				010431CDB141465E1B0EF06E /* TabiRouteApp.swift in Sources */,
+				37FF4390A3A18D8D40CBC060 /* Trip.swift in Sources */,
+				FAED5405BFD6D69F1FB0CAA8 /* TripListView.swift in Sources */,
+				F90D764FB77A6828D906885D /* TripMapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29F23012A0C926BD599B613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		94F89996E84498FDEE510985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TabiRoute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.texia.tabiroute;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A91B4E4223993F4D9876C875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TabiRoute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.texia.tabiroute;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D15DFC4DE0240656617BDA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559FADEDD88C0E56FD864F4D /* Build configuration list for PBXProject "TabiRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F23012A0C926BD599B613C /* Debug */,
+				D15DFC4DE0240656617BDA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A2A7C9B13EA81801DC977A4 /* Build configuration list for PBXNativeTarget "TabiRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91B4E4223993F4D9876C875 /* Debug */,
+				94F89996E84498FDEE510985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3E81801F89EC4DE96CA2DB4E /* XCLocalSwiftPackageReference "Packages/RouteClusteringKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/RouteClusteringKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F09B3BF270C65A8BBE1A36F /* RouteClusteringKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RouteClusteringKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18F92C159B8D5264BFA87733 /* Project object */;
+}

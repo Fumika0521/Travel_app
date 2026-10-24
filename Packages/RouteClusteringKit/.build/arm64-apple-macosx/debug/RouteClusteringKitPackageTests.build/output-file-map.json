@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/master.swiftdeps"
+  },
+  "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/runner.d",
+    "object": "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKitPackageTests.build/runner.dia"
+  }
+}

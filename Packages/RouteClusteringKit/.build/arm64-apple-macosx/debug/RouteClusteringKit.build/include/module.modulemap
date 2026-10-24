@@ -1,0 +1,3 @@
+module RouteClusteringKit {
+    header "/Users/fumika/develop2/Packages/RouteClusteringKit/.build/arm64-apple-macosx/debug/RouteClusteringKit.build/include/RouteClusteringKit-Swift.h"
+}
