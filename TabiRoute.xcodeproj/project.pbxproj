@@ -8,10 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		010431CDB141465E1B0EF06E /* TabiRouteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975BA7FD7DF1EC8D0578BDE /* TabiRouteApp.swift */; };
+		058CE4F22792E97B4E80D77C /* PackingPlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64506CDB079BB801308FAAE /* PackingPlanListView.swift */; };
+		0AB83066B4E3C559C9CBC3A2 /* TripType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15BB8E081D46BC80B7DB31D /* TripType.swift */; };
+		34B14C81C84BE0B44AAD0CE9 /* RecommendedSpotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2CCC786B1A8ED4ACE20D2 /* RecommendedSpotCard.swift */; };
 		37FF4390A3A18D8D40CBC060 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30EE14CDF1C98EF2D2FF136 /* Trip.swift */; };
+		390ECB1269CCEF221DD46190 /* PlacemarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66309E6188A536F7F09D6BC /* PlacemarkService.swift */; };
+		444BB2625D446EA2BEFD0AAF /* PackingListGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49E63D073848504CA237 /* PackingListGenerator.swift */; };
+		45B6186190F7C971983C3D32 /* NewPackingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34157DEB6E1B700DB6C0B93C /* NewPackingPlanView.swift */; };
+		465D2495A8030DFF570D1097 /* PackingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212597DA4C0E2E0F8EB26F9 /* PackingPlan.swift */; };
+		4B1794F25CFA121D2F2D1195 /* AppleMapsDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574C1E365B7EA250F5E20BC /* AppleMapsDirections.swift */; };
 		4FABD215BF26DCA9CF654CCD /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B654DB761A23E328AB8A3FE /* PhotoLibraryService.swift */; };
 		5566FA34B11C8B67C52B092C /* PhotoPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0379FD8DA59D31122A39C46 /* PhotoPickerSheet.swift */; };
 		5E41412C584E45DD7CD33364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDA9DB7E1EA5BC081EACC8 /* Assets.xcassets */; };
+		6704D31607F49D5440940165 /* TohokuArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6FCF02A7EBC2AA7789E2B /* TohokuArea.swift */; };
+		6A70A0C739A032FA77102918 /* ManualWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CA6C5FA8E7AC40077BB89B /* ManualWaypoint.swift */; };
+		77420EE0325C15EDCFDFA433 /* PackingPlanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978210AB9BFF3AA8D30B8E6B /* PackingPlanDetailView.swift */; };
+		86D00771FCC76EED72F2ACD6 /* AreaPickerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38626D87057BFFDF3C45DC /* AreaPickerViews.swift */; };
+		97B384D43425A26478AADA9C /* StopSearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11FF27436A6C54D88477EA /* StopSearchSheet.swift */; };
+		99D0F0135806840E979EA9FF /* LocationSearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C88B0FE15D3BC5F703457 /* LocationSearchSheet.swift */; };
+		AD162F419F38EBB1BA8E382E /* DrivingEstimateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E72F2D8DA383A753AC3F1F4 /* DrivingEstimateService.swift */; };
+		BC00BD6B2DBA0AF207C8A37A /* PlaceSearchCompleter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D8124057DBB41D9E20EAB /* PlaceSearchCompleter.swift */; };
+		BF0BE2DF7CA75462F9449E9A /* ClimateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FF583F6EAD028F27EE1CB /* ClimateService.swift */; };
+		CA9BDA83D7FCCFE7904527AD /* ClusterPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA676E7D3F9556AFCE087C /* ClusterPhotosView.swift */; };
+		E36CFF003A62FB5150D3E681 /* TransportMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80EC55CB4ADDBC0C93281A /* TransportMode.swift */; };
+		E72F5F4F87DBC396349A8011 /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FDD92FD36BCE0E73AED550 /* ItineraryView.swift */; };
 		ECC805D8D0E4F4D502F69724 /* RouteClusteringKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F09B3BF270C65A8BBE1A36F /* RouteClusteringKit */; };
 		F90D764FB77A6828D906885D /* TripMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6720EFCA37055F39FB120710 /* TripMapView.swift */; };
 		FAED5405BFD6D69F1FB0CAA8 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA675CB52C20A92FD0C6 /* TripListView.swift */; };
@@ -19,16 +39,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143F49E63D073848504CA237 /* PackingListGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListGenerator.swift; sourceTree = "<group>"; };
+		21CA6C5FA8E7AC40077BB89B /* ManualWaypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualWaypoint.swift; sourceTree = "<group>"; };
+		29CA676E7D3F9556AFCE087C /* ClusterPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterPhotosView.swift; sourceTree = "<group>"; };
 		309D4C9D4C6591AC3DA7B8DA /* TabiRoute.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TabiRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34157DEB6E1B700DB6C0B93C /* NewPackingPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPackingPlanView.swift; sourceTree = "<group>"; };
+		3A38626D87057BFFDF3C45DC /* AreaPickerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaPickerViews.swift; sourceTree = "<group>"; };
 		3B654DB761A23E328AB8A3FE /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
 		3BCDA9DB7E1EA5BC081EACC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A9559375F3244C3F93F53D /* RouteClusteringKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RouteClusteringKit; path = Packages/RouteClusteringKit; sourceTree = SOURCE_ROOT; };
+		50C6FCF02A7EBC2AA7789E2B /* TohokuArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TohokuArea.swift; sourceTree = "<group>"; };
+		5212597DA4C0E2E0F8EB26F9 /* PackingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingPlan.swift; sourceTree = "<group>"; };
+		5E5C88B0FE15D3BC5F703457 /* LocationSearchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchSheet.swift; sourceTree = "<group>"; };
+		5E72F2D8DA383A753AC3F1F4 /* DrivingEstimateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingEstimateService.swift; sourceTree = "<group>"; };
 		6720EFCA37055F39FB120710 /* TripMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapView.swift; sourceTree = "<group>"; };
+		67B2CCC786B1A8ED4ACE20D2 /* RecommendedSpotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedSpotCard.swift; sourceTree = "<group>"; };
+		6B1D8124057DBB41D9E20EAB /* PlaceSearchCompleter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchCompleter.swift; sourceTree = "<group>"; };
+		7C80EC55CB4ADDBC0C93281A /* TransportMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportMode.swift; sourceTree = "<group>"; };
+		7E11FF27436A6C54D88477EA /* StopSearchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopSearchSheet.swift; sourceTree = "<group>"; };
+		85FDD92FD36BCE0E73AED550 /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
 		8F3201C7DD012BBD84D8FFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		978210AB9BFF3AA8D30B8E6B /* PackingPlanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingPlanDetailView.swift; sourceTree = "<group>"; };
 		A29DCA675CB52C20A92FD0C6 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		A64506CDB079BB801308FAAE /* PackingPlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingPlanListView.swift; sourceTree = "<group>"; };
+		B15BB8E081D46BC80B7DB31D /* TripType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripType.swift; sourceTree = "<group>"; };
+		B66309E6188A536F7F09D6BC /* PlacemarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkService.swift; sourceTree = "<group>"; };
 		B975BA7FD7DF1EC8D0578BDE /* TabiRouteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabiRouteApp.swift; sourceTree = "<group>"; };
 		D0B0D91DD2BEA5188AC1C375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D30EE14CDF1C98EF2D2FF136 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		E574C1E365B7EA250F5E20BC /* AppleMapsDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsDirections.swift; sourceTree = "<group>"; };
+		E60FF583F6EAD028F27EE1CB /* ClimateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateService.swift; sourceTree = "<group>"; };
 		F0379FD8DA59D31122A39C46 /* PhotoPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +112,13 @@
 		7E3B2B651DB2902546F2C529 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E574C1E365B7EA250F5E20BC /* AppleMapsDirections.swift */,
+				E60FF583F6EAD028F27EE1CB /* ClimateService.swift */,
+				5E72F2D8DA383A753AC3F1F4 /* DrivingEstimateService.swift */,
+				143F49E63D073848504CA237 /* PackingListGenerator.swift */,
 				3B654DB761A23E328AB8A3FE /* PhotoLibraryService.swift */,
+				B66309E6188A536F7F09D6BC /* PlacemarkService.swift */,
+				6B1D8124057DBB41D9E20EAB /* PlaceSearchCompleter.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -101,7 +147,12 @@
 		A4CACE151AD2DCC36E70ABDE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				21CA6C5FA8E7AC40077BB89B /* ManualWaypoint.swift */,
+				5212597DA4C0E2E0F8EB26F9 /* PackingPlan.swift */,
+				50C6FCF02A7EBC2AA7789E2B /* TohokuArea.swift */,
+				7C80EC55CB4ADDBC0C93281A /* TransportMode.swift */,
 				D30EE14CDF1C98EF2D2FF136 /* Trip.swift */,
+				B15BB8E081D46BC80B7DB31D /* TripType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,8 +160,17 @@
 		F6CCBE30215A9F0A99EAA5A6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3A38626D87057BFFDF3C45DC /* AreaPickerViews.swift */,
+				29CA676E7D3F9556AFCE087C /* ClusterPhotosView.swift */,
 				8F3201C7DD012BBD84D8FFFF /* ContentView.swift */,
+				85FDD92FD36BCE0E73AED550 /* ItineraryView.swift */,
+				5E5C88B0FE15D3BC5F703457 /* LocationSearchSheet.swift */,
+				34157DEB6E1B700DB6C0B93C /* NewPackingPlanView.swift */,
+				978210AB9BFF3AA8D30B8E6B /* PackingPlanDetailView.swift */,
+				A64506CDB079BB801308FAAE /* PackingPlanListView.swift */,
 				F0379FD8DA59D31122A39C46 /* PhotoPickerSheet.swift */,
+				67B2CCC786B1A8ED4ACE20D2 /* RecommendedSpotCard.swift */,
+				7E11FF27436A6C54D88477EA /* StopSearchSheet.swift */,
 				A29DCA675CB52C20A92FD0C6 /* TripListView.swift */,
 				6720EFCA37055F39FB120710 /* TripMapView.swift */,
 			);
@@ -189,13 +249,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1794F25CFA121D2F2D1195 /* AppleMapsDirections.swift in Sources */,
+				86D00771FCC76EED72F2ACD6 /* AreaPickerViews.swift in Sources */,
+				BF0BE2DF7CA75462F9449E9A /* ClimateService.swift in Sources */,
+				CA9BDA83D7FCCFE7904527AD /* ClusterPhotosView.swift in Sources */,
 				FEC5197F4D91C8AC5D61556B /* ContentView.swift in Sources */,
+				AD162F419F38EBB1BA8E382E /* DrivingEstimateService.swift in Sources */,
+				E72F5F4F87DBC396349A8011 /* ItineraryView.swift in Sources */,
+				99D0F0135806840E979EA9FF /* LocationSearchSheet.swift in Sources */,
+				6A70A0C739A032FA77102918 /* ManualWaypoint.swift in Sources */,
+				45B6186190F7C971983C3D32 /* NewPackingPlanView.swift in Sources */,
+				444BB2625D446EA2BEFD0AAF /* PackingListGenerator.swift in Sources */,
+				465D2495A8030DFF570D1097 /* PackingPlan.swift in Sources */,
+				77420EE0325C15EDCFDFA433 /* PackingPlanDetailView.swift in Sources */,
+				058CE4F22792E97B4E80D77C /* PackingPlanListView.swift in Sources */,
 				4FABD215BF26DCA9CF654CCD /* PhotoLibraryService.swift in Sources */,
 				5566FA34B11C8B67C52B092C /* PhotoPickerSheet.swift in Sources */,
+				BC00BD6B2DBA0AF207C8A37A /* PlaceSearchCompleter.swift in Sources */,
+				390ECB1269CCEF221DD46190 /* PlacemarkService.swift in Sources */,
+				34B14C81C84BE0B44AAD0CE9 /* RecommendedSpotCard.swift in Sources */,
+				97B384D43425A26478AADA9C /* StopSearchSheet.swift in Sources */,
 				010431CDB141465E1B0EF06E /* TabiRouteApp.swift in Sources */,
+				6704D31607F49D5440940165 /* TohokuArea.swift in Sources */,
+				E36CFF003A62FB5150D3E681 /* TransportMode.swift in Sources */,
 				37FF4390A3A18D8D40CBC060 /* Trip.swift in Sources */,
 				FAED5405BFD6D69F1FB0CAA8 /* TripListView.swift in Sources */,
 				F90D764FB77A6828D906885D /* TripMapView.swift in Sources */,
+				0AB83066B4E3C559C9CBC3A2 /* TripType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,6 @@ struct TabiRouteApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Trip.self)
+        .modelContainer(for: [Trip.self, PackingPlan.self])
     }
 }

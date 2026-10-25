@@ -89,4 +89,47 @@ public enum RouteClustering {
                 )
             }
     }
+
+    /// Sums the great-circle distance between consecutive points in
+    /// chronological order — the length of the route polyline drawn on the
+    /// map, not a straight line between the first and last point.
+    public static func totalDistance(points: [GeoPoint]) -> CLLocationDistance {
+        guard points.count > 1 else { return 0 }
+
+        let sorted = points.sorted { $0.date < $1.date }
+        var total: CLLocationDistance = 0
+
+        for (previous, current) in zip(sorted, sorted.dropFirst()) {
+            let from = CLLocation(latitude: previous.coordinate.latitude, longitude: previous.coordinate.longitude)
+            let to = CLLocation(latitude: current.coordinate.latitude, longitude: current.coordinate.longitude)
+            total += from.distance(from: to)
+        }
+
+        return total
+    }
+
+    /// Greedy nearest-neighbor ordering of clusters, starting from the
+    /// chronologically earliest one — a simple, rule-based stand-in for a
+    /// real route-optimization algorithm, good enough for the handful of
+    /// clusters a single trip produces. Used to suggest a visiting order
+    /// for places from a photo selection, as distinct from the clusters'
+    /// natural earliest-date order.
+    public static func suggestedVisitOrder(for clusters: [RouteCluster]) -> [RouteCluster] {
+        guard !clusters.isEmpty else { return [] }
+
+        var remaining = clusters
+        var ordered: [RouteCluster] = [remaining.removeFirst()]
+
+        while !remaining.isEmpty {
+            let currentLocation = CLLocation(latitude: ordered.last!.coordinate.latitude, longitude: ordered.last!.coordinate.longitude)
+            let nextIndex = remaining.indices.min { lhsIndex, rhsIndex in
+                let lhsLocation = CLLocation(latitude: remaining[lhsIndex].coordinate.latitude, longitude: remaining[lhsIndex].coordinate.longitude)
+                let rhsLocation = CLLocation(latitude: remaining[rhsIndex].coordinate.latitude, longitude: remaining[rhsIndex].coordinate.longitude)
+                return currentLocation.distance(from: lhsLocation) < currentLocation.distance(from: rhsLocation)
+            }!
+            ordered.append(remaining.remove(at: nextIndex))
+        }
+
+        return ordered
+    }
 }
